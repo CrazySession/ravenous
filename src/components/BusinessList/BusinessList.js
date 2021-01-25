@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+import './BusinessList.css';
+import Business from '../Business/Business';
 
 class BusinessList extends Component {
     render() {
-        return <div>BusinessList</div>;
+        return <div className='BusinessList'>
+            <Business/>
+        </div>;
     }
 }
 

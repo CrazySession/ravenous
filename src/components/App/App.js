@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
-import Business from '../Business/Business';
+import BusinessList from '../BusinessList/BusinessList';
 
 class App extends Component {
     render(){
         return (
             <div>
-                <h1>Under construction</h1>
+                <BusinessList/>
+                <BusinessList/>
+                <BusinessList/>
+                <BusinessList/>
+                <BusinessList/>
             </div>
         )
     }
