@@ -5,8 +5,7 @@ class App extends Component {
     render(){
         return (
             <div>
-                <h1>Ravenous Project CodeCademy</h1>
-                <Business   />
+                <h1>Under construction</h1>
             </div>
         )
     }

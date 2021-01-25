@@ -7,7 +7,7 @@ class Business extends Component {
         return (
             <div className='Business'>
                 <div className='image-container'>
-                    <img src={bData.src}
+                    <img src={bData.imageSrc}
                          alt={bData.name} />
                 </div>
                 <h2>{bData.name}</h2>
@@ -25,7 +25,7 @@ class Business extends Component {
                 </div>
             </div>
         )
-    }
+    }1111
 }
 
 export default Business
