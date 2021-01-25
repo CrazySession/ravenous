@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
+import Business from '../Business/Business';
 
 class App extends Component {
     render(){
-        return <div>Ravenous Project CodeCademy</div>;
+        return (
+            <div>
+                <h1>Ravenous Project CodeCademy</h1>
+                <Business   />
+            </div>
+        )
     }
 }
 
